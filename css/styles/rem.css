@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; 
+    /* Este codigo inicializa en 62.5% el tamano de la fuente para poder controlar la medida rem, 1rem va a representar 10px, 2rem 20px, 3rem 30 px y asi sucesivamente */
+}
+
+.parrafo {
+    font-size: 2rem ;
+}
+
+main div {
+    font-size: 3rem;
+}
+

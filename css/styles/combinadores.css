@@ -1,0 +1,23 @@
+/* h2 + p {
+    color: red;
+} */
+/*El combinador + nos dice que aplique los estilos a la etiqueta/clase mas cercana a la primera etiqueta/clase que indiquemos, en este ejemplo decimos que aplique los estilos a las etiquetas p que estes cerca de un h2*/
+
+/* h2 ~ p {
+    color: blue;
+} */
+
+/*El combinador ~ indica que aplique los estilos a todas las etiquetas que marquemos por debajo de la primera etiqueta, en este ejemplo decimos que se apliquen los estilos a todas las etiquetas p que esten por debajo de un h2, ya sea si antes hay otra etiqueta o no*/
+
+/* div > p {
+    color: rgb(30, 187, 207)
+} */
+
+/* El combinador de > es el hijo directo, aplica los estilos a la etiqueta que sea su hija directa, en este ejemplo decimos que aplique los estilos a las etiquetas p que sean hijas de directas de un div */
+
+div p {
+    color: blueviolet;
+}
+
+
+/* Este combinador es el combinador descendiente, que indica que aplique todos los estilos a todas las etiquetas que esten dentro de otra, sin importar si tienen otra etiqueta que sea su padre directo, en este ejemplo decimos que se le aplique los estilos a todos los p que desciendan de un div */
